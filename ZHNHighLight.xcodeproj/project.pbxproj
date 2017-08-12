@@ -15,6 +15,7 @@
 		CDAA9A921F3EA9980083910F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAA9A901F3EA9980083910F /* LaunchScreen.storyboard */; };
 		CDAA9A9D1F3EA9980083910F /* ZHNHighLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAA9A9C1F3EA9980083910F /* ZHNHighLightTests.m */; };
 		CDAA9AA81F3EA9980083910F /* ZHNHighLightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAA9AA71F3EA9980083910F /* ZHNHighLightUITests.m */; };
+		CDAA9AB71F3EA9B60083910F /* UITableView+ZHNHighLight.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAA9AB61F3EA9B60083910F /* UITableView+ZHNHighLight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CDAA9AA31F3EA9980083910F /* ZHNHighLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNHighLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAA9AA71F3EA9980083910F /* ZHNHighLightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNHighLightUITests.m; sourceTree = "<group>"; };
 		CDAA9AA91F3EA9980083910F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAA9AB51F3EA9B60083910F /* UITableView+ZHNHighLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+ZHNHighLight.h"; sourceTree = "<group>"; };
+		CDAA9AB61F3EA9B60083910F /* UITableView+ZHNHighLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ZHNHighLight.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CDAA9A861F3EA9980083910F /* AppDelegate.m */,
 				CDAA9A881F3EA9980083910F /* ViewController.h */,
 				CDAA9A891F3EA9980083910F /* ViewController.m */,
+				CDAA9AB51F3EA9B60083910F /* UITableView+ZHNHighLight.h */,
+				CDAA9AB61F3EA9B60083910F /* UITableView+ZHNHighLight.m */,
 				CDAA9A8B1F3EA9980083910F /* Main.storyboard */,
 				CDAA9A8E1F3EA9980083910F /* Assets.xcassets */,
 				CDAA9A901F3EA9980083910F /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDAA9A8A1F3EA9980083910F /* ViewController.m in Sources */,
+				CDAA9AB71F3EA9B60083910F /* UITableView+ZHNHighLight.m in Sources */,
 				CDAA9A871F3EA9980083910F /* AppDelegate.m in Sources */,
 				CDAA9A841F3EA9980083910F /* main.m in Sources */,
 			);
