@@ -5,4 +5,5 @@
 
 1. 导入`UITableView+ZHNHighLight.h`头文件
 
+
 2.需要这个效果的tableview上设置`zhn_highLightColor`这个属性
